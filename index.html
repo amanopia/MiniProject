@@ -10,7 +10,7 @@
   <link href="CSS/styles.css" rel="stylesheet" />
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 
   <title>Competitor</title>
 </head>
@@ -19,10 +19,33 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">CareeredUp</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">Websitelogo</a>
+
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
+        <!-- ****** Code for custom toggler icon ****** -->
+        <label class="navbar-toggler toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <input type="checkbox" checked>
+          <div>
+            <div>
+              <span></span>
+              <span></span>
+            </div>
+            <svg>
+              <use xlink:href="#path">
+            </svg>
+            <svg>
+              <use xlink:href="#path">
+            </svg>
+          </div>
+        </label>
+
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+          <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" id="path">
+            <path d="M22,22 L2,22 C2,11 11,2 22,2 C33,2 42,11 42,22"></path>
+          </symbol>
+        </svg>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -35,16 +58,23 @@
               <a class="nav-link" href="#">Contact Us</a>
             </li>
           </ul>
-          <button class="btn login" type="submit">Log In</button>
-          <button class="btn sign-up" type="submit">Sign Up</button>
+          <button class="btn login" type="submit">Login</button>
+          <button class="btn sign-up" type="submit">Sign up</button>
         </div>
+        <!-- ****** Code for navbar-toggler icon ****** -->
       </div>
     </nav>
   </header>
 
+
+  <!-- dribbble -->
+
+
+
   <!-- BOOTSTRAP BUNDLE: Includes every JavaScript plugin and dependency.Includes Popper too -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   <!-- JavaScript File Link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="index.js"></script>
 </body>
 
