@@ -1,14 +1,18 @@
+
 .navbar {
   padding: auto 5% auto 5%;
 }
 .navbar-brand {
   font-family: "Montserrat",sans-serif;
   font-weight: 700;
-  margin-right: 33vw;
+  margin-right: 30vw;
 }
 .navbar-nav {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+}
+li {
+  margin-right: 30px;
 }
 .btn {
   font-family: "Montserrat",sans-serif;
